@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Stack</title>
+    <script src="https://kit.fontawesome.com/717ec69abf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Nunito', sans-serif;
+        }
+        html{
+            height: 100%;
+        }
+        body{
+            padding-top: 3%;
+            background-image: linear-gradient(#1a5e81, #f77776);
+            height: 100%;
+            background-repeat: no-repeat;
+        }
+        .row{
+            background: rgb(0, 0, 0, 0.4);
+            border-radius: 30px;
+            box-shadow: 12px 12px 22px black;
+        }
+        img{
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+        .btn1{
+            border: none;
+            outline: none;
+            height: 50px;
+            width: 100%;
+            background-color: #0d374d;
+            color: #fefdfd;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .btn1:hover{
+            background: #f77776;
+            border: 2px solid;
+            color: #0d374d;
+        }
+        .blogs{
+            justify-content: center;
+            padding-top: 9%;
+        }
+    </style>
+
+  </head>
+    <body>
+    
+        <section class="Form my-4 mx-5">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-lg-6 px-5 pt-5">
+                        <h1 class="font-weight-bold py-3" style="color: whitesmoke; text-align: center;">The Stack</h1>
+                        <form>
+                            <div class="form-row blogs">
+                                <div class="col-lg-7">
+                                    <a href="blog1.html"><button type="button" class="btn1">Blog 1</button></a>
+                                </div>
+                            </div>
+                            <div class="form-row blogs">
+                                <div class="col-lg-7">
+                                    <button type="button" class="btn1">Blog 2</button>
+                                </div>
+                            </div>
+                            <div class="form-row blogs">
+                                <div class="col-lg-7">
+                                    <button type="button" class="btn1">Blog 3</button>
+                                </div>
+                            </div>
+                            <div class="form-row blogs">
+                                <div class="col-lg-7">
+                                    <button type="button" class="btn1">Blog 4</button>
+                                </div>
+                            </div>
+                            <div class="form-row blogs">
+                                <div class="col-lg-7">
+                                    <button type="button" class="btn1">Blog 5</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="lamp.jpg" class="img-fluid" alt="Lamp">
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    </body>
+</html>
